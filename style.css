@@ -94,15 +94,16 @@ ul{
         flex-direction: column;
     }
 
-    .card{
+    .tarjeta{
         display: flex;
         align-items: center;
         height: 20rem;
         width: 15rem;
         margin: 1rem;
+
     }
 
-    .card h2{
+    .tarjeta h2{
         padding: 1rem;
     }
 
@@ -121,7 +122,7 @@ ul{
         justify-content: center;
     }
 
-    .card{
+    .tarjeta{
         background: linear-gradient(#fcdcf0, #fff, #fcdcf0);
         border:#fcdcf0 3px solid;
     }
@@ -215,15 +216,18 @@ ul{
         margin: 2rem;
     }
 
-    .card{
+    .tarjeta{
         width: 12rem;
         height: 23rem;
         display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
         text-align: center;
         margin: 0;
         padding: 0;
+
     }
-    .card:hover{
+    .tarjeta:hover{
         background: linear-gradient(rgb(248, 109, 202), #fff, rgb(248, 109, 202));
         -webkit-animation: rotateY 2.5s infinite linear;
     }
@@ -234,10 +238,10 @@ ul{
 
     img{
         width: 10rem;
-        max-height: 11rem;
+        height: 11rem;
         align-self: center;
     }
-    .card h2, .card h3{
+    .tarjeta h2, .tarjeta h3{
         font-size: 1,5rem;
     }
 
@@ -261,6 +265,7 @@ ul{
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;;
         height: 25rem;
         margin: 2rem;
     }
